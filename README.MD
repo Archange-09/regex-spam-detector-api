@@ -1,10 +1,10 @@
-# 🛡️ Regex Spam Detector API
+# Regex Spam Detector API
 
 A robust RESTful API built with **Spring Boot** designed to intercept, analyze, and filter spam in contact form submissions using high-performance Regular Expressions (Regex).
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 * [Features](#-features)
 * [Architecture](#-architecture)
 * [Tech Stack](#-tech-stack)
@@ -14,7 +14,7 @@ A robust RESTful API built with **Spring Boot** designed to intercept, analyze, 
 
 ---
 
-## ✨ Features
+##  Features
 * **Pattern-Based Detection:** Identifies spam using regex logic across Name, Email, and Message fields.
 * **Persistent Storage:** Saves all submissions to a MySQL database with a "spam" flag for moderation.
 * **DTO Pattern:** Uses Data Transfer Objects to ensure secure and clean data handling between the client and server.
@@ -22,7 +22,7 @@ A robust RESTful API built with **Spring Boot** designed to intercept, analyze, 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 The project follows the standard **Spring Boot Layered Architecture**:
 1. **Controller:** Handles incoming REST requests.
 2. **DTO:** Validates and transfers data from the request body.
@@ -32,7 +32,7 @@ The project follows the standard **Spring Boot Layered Architecture**:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Java 17
 * **Framework:** Spring Boot 3.x
 * **Data:** Spring Data JPA / Hibernate
@@ -42,7 +42,7 @@ The project follows the standard **Spring Boot Layered Architecture**:
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 The API automatically manages the `contact_messages` table:
 
 | Column | Type | Description |
@@ -56,7 +56,7 @@ The API automatically manages the `contact_messages` table:
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -65,7 +65,7 @@ cd regex-spam-detector
 ```
 
 
-🚀 Testing the API
+## Testing the API
 1. Verification (GET)
 Before testing the logic, verify the API is running correctly.
 
