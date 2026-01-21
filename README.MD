@@ -106,7 +106,7 @@ Sample JSON Body (Spam):
   "message": "WINNER! You won 1,000,000! Click here for FREE MONEY: http://scam.com"
 }
 ```
-🧪 Automated Testing
+Automated Testing
 The project includes standard JUnit 5 tests to ensure the regex logic doesn't break when you add new rules.
 
 Running Tests
