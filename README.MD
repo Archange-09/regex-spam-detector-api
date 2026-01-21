@@ -88,7 +88,7 @@ Value: application/json
 
 Sample JSON Body (Non-Spam):
 
-JSON
+```JSON
 
 {
   "name": "Jane Smith",
@@ -97,7 +97,7 @@ JSON
 }
 Sample JSON Body (Spam):
 
-JSON
+```JSON
 
 {
   "name": "Spam Bot",
@@ -108,12 +108,4 @@ JSON
 The project includes standard JUnit 5 tests to ensure the regex logic doesn't break when you add new rules.
 
 Running Tests
-You can run the tests directly from your IDE (IntelliJ) or via the command line:
-
-Bash
-
-./mvnw test
-Test Coverage
-SpamDetectionServiceTest.java: Unit tests that pass various strings through the regex engine to verify detection accuracy.
-
-ContactformApplicationTests.java: Smoke tests to ensure the Spring Context loads and database connections are valid.
+You can run the tests directly from your IDE (IntelliJ recommended) 
