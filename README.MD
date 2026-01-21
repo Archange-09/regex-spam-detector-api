@@ -95,6 +95,7 @@ Sample JSON Body (Non-Spam):
   "email": "jane@example.com",
   "message": "Hi, I have a question."
 }
+```
 Sample JSON Body (Spam):
 
 ```JSON
@@ -104,6 +105,7 @@ Sample JSON Body (Spam):
   "email": "bad-actor@spam.net",
   "message": "WINNER! You won 1,000,000! Click here for FREE MONEY: http://scam.com"
 }
+```
 🧪 Automated Testing
 The project includes standard JUnit 5 tests to ensure the regex logic doesn't break when you add new rules.
 
