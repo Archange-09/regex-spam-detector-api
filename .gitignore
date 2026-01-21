@@ -1,0 +1,30 @@
+# --- Compiled files ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Database & Credentials (CRITICAL) ---
+# This allows you to have a local file with your real password that NEVER goes to GitHub
+src/main/resources/application-local.properties
+.env
+
+# --- Maven Wrapper ---
+.mvn/
+mvnw
+mvnw.cmd
+
+# --- IDE Specific ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
