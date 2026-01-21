@@ -1,4 +1,4 @@
-# Regex Spam Detector API
+# Regex Spam Detector API / Contact Form REST API with Regex Validation
 
 A robust RESTful API built with **Spring Boot** designed to intercept, analyze, and filter spam in contact form submissions using high-performance Regular Expressions (Regex).
 
