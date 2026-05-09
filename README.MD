@@ -111,3 +111,10 @@ The project includes standard JUnit 5 tests to ensure the regex logic doesn't br
 
 Running Tests
 You can run the tests directly from your IDE (IntelliJ recommended) 
+
+
+## Project Background
+
+This project was developed as an **AI-guided learning and development project**, where modern AI tools were used to assist in researching Spring Boot best practices, designing the API architecture, debugging issues, and refining the regex-based spam detection logic.
+The goal was not only to build a functional REST API, but also to strengthen practical skills in **backend development, RESTful services, database integration, validation, and automated testing** through hands-on implementation and iterative improvement.
+
